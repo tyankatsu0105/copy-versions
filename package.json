@@ -1,0 +1,26 @@
+{
+  "name": "set-clipboard-report",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/tyankatsu0105/set-clipboard-report#readme",
+  "bugs": {
+    "url": "https://github.com/tyankatsu0105/set-clipboard-report/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tyankatsu0105/set-clipboard-report.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "cowsay": "^1.4.0"
+  },
+  "dependencies": {
+    "clipboard-cli": "^2.0.0",
+    "execa": "^2.0.4"
+  }
+}
