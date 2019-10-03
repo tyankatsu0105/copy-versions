@@ -1,6 +1,6 @@
 {
   "name": "@tyankatsu0105/copy-versions",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Be able to copy versions",
   "homepage": "https://github.com/tyankatsu0105/copy-versions#readme",
   "bugs": {
@@ -12,7 +12,7 @@
   },
   "license": "MIT",
   "author": "tyankatsu0105",
-  "main": "lib/index.js",
+  "main": "bin/index.js",
   "scripts": {
     "test": "exit 0"
   },
