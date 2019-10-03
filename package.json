@@ -20,7 +20,8 @@
     "cowsay": "^1.4.0"
   },
   "dependencies": {
-    "clipboard-cli": "^2.0.0",
-    "execa": "^2.0.4"
+    "clipboardy": "^2.1.0",
+    "execa": "^2.0.4",
+    "shelljs": "^0.8.3"
   }
 }

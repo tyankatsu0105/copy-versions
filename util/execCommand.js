@@ -1,11 +1,8 @@
-const {execSync} = require('child_process');
+const {exec} = require('child_process');
+const sh = require('shelljs');
 
-const execCommand = (command, fallback) => {
-  try {
-    return execSync(command)
-  } catch  {
-    return fallback;
-  }
+const execCommand = (command) => {
+  return sh.exec(command, {silent:true});
 }
 
- module.exports = execCommand;
+module.exports = execCommand;
