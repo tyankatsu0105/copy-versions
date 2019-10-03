@@ -1,4 +1,4 @@
-# copy-versions
+# <a href="https://www.npmjs.com/package/@tyankatsu0105/copy-versions" rel="nofollow">@tyankatsu0105/copy-versions</a>
 
 Be able to copy versions to clipboard.
 - package
