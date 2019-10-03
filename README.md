@@ -1,12 +1,32 @@
-パッケージのバージョンと
+# copy-versions
+
+Be able to copy versions to clipboard.
+- package
 - node
 - npm
 - yarn
 
-のバージョンをクリップボードに取れる
+# Usage
 
-# roadmap
-- [x] クリップボードにコピーできる
-- [x] 成功したときに何かログ出す
-- [x] optionでパッケージ名受け取る
-- [ ] npm publish
+```bash
+$ copy-versions <package-name>
+```
+
+# Example
+
+```bash
+$ copy-versions yargs
+
+A copy succeeded!!!👇 
+
+==========
+yargs version : ^14.0.0
+node version : v10.16.3
+npm version : 6.9.0
+yarn version : 
+==========
+```
+
+# License
+
+MIT

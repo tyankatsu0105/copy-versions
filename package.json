@@ -1,28 +1,36 @@
 {
-  "name": "set-clipboard-report",
-  "version": "1.0.0",
-  "description": "",
-  "homepage": "https://github.com/tyankatsu0105/set-clipboard-report#readme",
+  "name": "@tyankatsu0105/copy-versions",
+  "version": "0.0.0",
+  "description": "Be able to copy versions",
+  "homepage": "https://github.com/tyankatsu0105/copy-versions#readme",
   "bugs": {
-    "url": "https://github.com/tyankatsu0105/set-clipboard-report/issues"
+    "url": "https://github.com/tyankatsu0105/copy-versions/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tyankatsu0105/set-clipboard-report.git"
+    "url": "git+https://github.com/tyankatsu0105/copy-versions.git"
   },
-  "license": "ISC",
-  "author": "",
+  "license": "MIT",
+  "author": "tyankatsu0105",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "exit 0"
   },
-  "devDependencies": {
-    "cowsay": "^1.4.0"
+  "bin": {
+    "copy-versions": "./bin/copy-versions.js"
   },
   "dependencies": {
     "clipboardy": "^2.1.0",
-    "execa": "^2.0.4",
     "shelljs": "^0.8.3",
     "yargs": "^14.0.0"
-  }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "LICENSE",
+    "bin",
+    "util",
+    "package.json"
+  ]
 }

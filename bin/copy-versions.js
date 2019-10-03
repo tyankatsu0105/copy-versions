@@ -12,17 +12,17 @@ const {devDependencies, dependencies} = require(path.resolve(process.cwd(), 'pac
 const problemPackageVersion = {...devDependencies, ...dependencies}[problemPackage]
 
 const nodeVersion = execCommand('node -v');
-const yarnVersion = execCommand('yarn -v');
 const npmVersion =  execCommand('npm -v');
+const yarnVersion = execCommand('yarn -v');
 
 const report = `${argv._[0]} version : ${problemPackageVersion}
-node version : ${nodeVersion}yarn version : ${yarnVersion}
-npm version : ${npmVersion}`
+node version : ${nodeVersion}npm version : ${npmVersion}yarn version : ${yarnVersion}`
 
 clipboardy.writeSync(report.toString());
 clipboardy.readSync();
 
-console.log(`Succeeded a copy!!!👇 
+console.log(`A copy succeeded!!!👇 
 
 ==========
-${report}==========`);
+${report}
+==========`);
