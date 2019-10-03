@@ -22,6 +22,7 @@
   "dependencies": {
     "clipboardy": "^2.1.0",
     "execa": "^2.0.4",
-    "shelljs": "^0.8.3"
+    "shelljs": "^0.8.3",
+    "yargs": "^14.0.0"
   }
 }
