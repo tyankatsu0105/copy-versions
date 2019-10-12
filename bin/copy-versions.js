@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
-const path = require('path')
+const path = require('path');
+const notifier = require('node-notifier');
 const clipboardy = require('clipboardy');
 const argv = require('yargs').argv
 
@@ -26,3 +27,8 @@ console.log(`A copy succeeded!!!👇
 ==========
 ${report}
 ==========`);
+
+notifier.notify({
+  title: 'copy versions',
+  message: 'A copy succeeded!!!'
+})
