@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "clipboardy": "^2.1.0",
-    "node-notifier": "^6.0.0",
+    "node-notifier": "^8.0.1",
     "shelljs": "^0.8.3",
     "yargs": "^14.0.0"
   },
